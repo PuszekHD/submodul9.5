@@ -1,8 +1,8 @@
 var exerciseClass = document.getElementsByClassName('button');
 console.log(exerciseClass);
+var len = exerciseClass.length;
+console.log(len);
 
-console.log(exerciseClass.length);
-
-for ( i = 0; i < exerciseClass.length; i++) {
+for ( var i = 0; i < len; i++) {
     alert(exerciseClass[i].textContent);
 }
